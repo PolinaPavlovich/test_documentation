@@ -1,19 +1,14 @@
 .. Storshow documentation 
 
-This is test documentation
-
-Welcome to Storshow's documentation!
+Storshow documentation!
 ====================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Command line options
+--------------------
 
+.. argparse::
+   :func: parse_args
+   :filename: ../Storshow/Storshow
+   :prog: Storshow
+   :nodefault:
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
